@@ -16,7 +16,7 @@ export default function Hero() {
 
                     <div className="text-center lg:text-left z-10">
                         <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6 flex flex-col items-center lg:items-start gap-3">
-                            <span>Hi, I'm</span>
+                            <span>Hi, I&apos;m</span>
                             <MyName />
                         </h1>
 
