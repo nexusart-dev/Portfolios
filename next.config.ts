@@ -1,16 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
+  basePath: "/Portfolios",
+  assetPrefix: "/Portfolios/",
+  images: {
+    unoptimized: true,
+  },
   reactCompiler: true,
   compiler: {
     styledComponents: true,
   },
-  output: "export",
-  images: {
-    unoptimized: true,
-  },
-  basePath: "/Portfolios",
-  assetPrefix: "/Portfolios/",
 };
 
 export default nextConfig;

@@ -4,12 +4,12 @@
   "private": true,
   "homepage": "https://nexusart-dev.github.io/Portfolios",
   "scripts": {
-  "dev": "next dev -p 2004",
-  "build": "next build",
-  "start": "next start",
-  "lint": "eslint",
-  "predeploy": "next build && next export",
-  "deploy": "gh-pages -d out"
+    "dev": "next dev -p 2004",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
